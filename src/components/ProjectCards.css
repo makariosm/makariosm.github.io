@@ -1,6 +1,5 @@
 .cards {
     padding: 4rem;
-    background: #fff;
   }
   
   h1 {
@@ -36,6 +35,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
+    background-color: #000000;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -94,7 +94,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #fff;
     font-size: 18px;
     line-height: 24px;
   }
