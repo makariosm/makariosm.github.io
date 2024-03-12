@@ -1,73 +1,89 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
 .hero-container {
-    /* background: url('images/img-home.jpg') center center/cover
-    no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -50px;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-    object-fit: contain;
-}
+  }
+  
+  .hero-container > video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-container > .welcome__image {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid white;
+    z-index: 1;
 
-.hero-container > h1 {
+  }
+  
+  .hero-container > h1 {
     color: #fff;
     font-size:  100px;
     margin-top: -100px;
-}
-
-.hero-container > p {
+    z-index: 1;
+    margin-top: 0px;
+  }
+  
+  .hero-container > p {
     margin-top: 8px;
     color: #fff;
-    font-size: 32px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.hero-btns {
+    z-index: 1;
+  }
+  
+  .hero-btns {
     margin-top: 32px;
-}
-
-.hero-btns .btn {
+    z-index: 1;
+  }
+  
+  .hero-btns .btn {
     margin: 6px;
-}
-
-.fa-play-circle {
+    z-index: 1;
+  }
+  
+  .fa-play-circle {
     margin-left: 4px;
-}
-
-@media screen and (max-width: 960px) {
+  }
+  
+  @media screen and (max-width: 960px) {
     .hero-container > h1 {
-        font-size: 70px;
-        margin-top: -150px;
+      font-size: 70px;
+      margin-top: 0px;
     }
-}
-
-@media screen and (max-width: 760px) {
+  }
+  
+  @media screen and (max-width: 760px) {
     .hero-container > h1 {
-        font-size: 50px;
-        margin-top: -100px;
+      font-size: 50px;
+      margin-top: 0px;
     }
-
+  
     .hero-container > p {
-        font-size: 30px;
+      font-size: 30px;
     }
-
+  
     .btn-mobile {
-        display: block;
-        text-decoration: none;
+      display: block;
+      text-decoration: none;
     }
-
+  
     .btn {
-        width: 100%;
+      width: 100%;
     }
-}
+  }

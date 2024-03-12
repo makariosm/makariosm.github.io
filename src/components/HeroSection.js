@@ -4,10 +4,13 @@ import './HeroSection.css'
 
 function HeroSection() {
   return (
-    <div className = 'hero-container'>
+    <div className='hero-container'>
       <video src='/videos/video-3.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <img className='welcome__image'
+          src="/images/headshot.jpg"
+          alt="Profile" />
+      <h1>Hey, I'm Makarios Mansour!</h1>
+      <p>Computer Science student and a guy with big dreams</p>
     </div>
   )
 }
