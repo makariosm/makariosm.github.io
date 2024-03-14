@@ -38,7 +38,7 @@
     background-color: #000000;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.815));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
@@ -63,7 +63,7 @@
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 28px;
     font-weight: 700;
     color: #fff;
     background-color: #1f98f4;
@@ -95,7 +95,7 @@
   
   .cards__item__text {
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
   }
   
@@ -107,7 +107,13 @@
   
   @media only screen and (min-width: 1024px) {
     .cards__items {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns, each taking up equal space */
+      grid-gap: 2rem; /* Gap between columns */
+    }
+    .cards__item {
+      flex: 0 0 calc(50% - 1rem); /* Set each item to take up half the width with a little spacing */
+      margin-bottom: 2rem;
     }
   }
   

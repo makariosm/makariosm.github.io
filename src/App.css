@@ -26,7 +26,6 @@
 }
 
 .hobbies {
-  background-image: URL('C:\Users\macar\CS Projects\personal-website\public\images/img-1.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +34,6 @@
 }
 
 .projects {
-  background-image: URL('C:\Users\macar\CS Projects\personal-website\public\images/img-8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

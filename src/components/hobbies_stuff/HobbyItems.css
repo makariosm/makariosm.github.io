@@ -1,0 +1,58 @@
+.white {
+  color: white;
+}
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.grid-row .text-col {
+  grid-column: span 8;
+}
+
+.grid-row figure {
+  grid-column: span 4;
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about-section {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.flex-row {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: white;
+  font-size: 100px;
+}
+
+.item {
+  display: flex;
+  border: 2px solid #fff; 
+  border-radius: 10px; 
+  padding: 20px; 
+}
+
+.image {
+  margin-right: 20px;
+  border-radius: 5px; 
+  width: auto;
+  height: 500px;
+}
+
+.text-wrap {
+  flex-grow: 1;
+}
+
+.about-text {
+  color: white;
+  font-size: 64px;;
+}

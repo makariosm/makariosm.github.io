@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
-import './Navbar.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -17,42 +17,50 @@ function Navbar() {
     }
   };
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             MAK MANSOUR
-            </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </Link>
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li>
               <Link
-                to='/background'
-                className='nav-links'
+                to="https://northeastern-my.sharepoint.com/:w:/g/personal/mansour_ma_northeastern_edu/EarfBySKm4NKp4ToP4-T3nsBpiGA9aQnqIy8mdt6QXPe2g"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Résumé
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/background"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Background
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/hobbies'
-                className='nav-links'
+                to="/hobbies"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Hobbies/Interests
               </Link>
             </li>
-
             <li>
               <Link
-                to='/projects'
-                className='nav-links'
+                to="/projects"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Projects

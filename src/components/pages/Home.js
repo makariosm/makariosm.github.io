@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
+import HeroSection from '../home_stuff/HeroSection';
 import Footer from '../Footer';
+import AboutMe from '../home_stuff/AboutMe';
 
-function Home () {
+function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top when component mounts
+    }, []);
+
     return (
         <>
-        
-        <HeroSection />
-        <Footer />
+            <HeroSection />
+            <AboutMe />
+            <Footer />
         </>
-    )
+    );
 }
 
 export default Home;
