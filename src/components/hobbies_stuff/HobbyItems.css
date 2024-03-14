@@ -1,6 +1,9 @@
+/* Existing styles */
+
 .white {
   color: white;
 }
+
 .grid-row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -54,5 +57,29 @@
 
 .about-text {
   color: white;
-  font-size: 64px;;
+  font-size: 64px;
+}
+
+/* New styles for smaller screens */
+@media (max-width: 1080px) {
+  .grid-row {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+  }
+  
+  .grid-row .text-col,
+  .grid-row figure {
+    grid-column: span 1; /* Each item spans the full width */
+  }
+  
+  .item {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center align items */
+  }
+  
+  .image {
+    margin-right: 0; /* Remove margin */
+    margin-bottom: 20px; /* Add space below image */
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Allow image to adjust height based on content */
+  }
 }
