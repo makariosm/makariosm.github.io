@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import '../../App.css';
 import Cards from "../projects_stuff/ProjectCards";
 import ProjectsHeader from "../projects_stuff/ProjectsHeader";
+import Footer from "../Footer";
 
 export default function Projects() {
     useEffect(() => {
@@ -12,6 +13,7 @@ export default function Projects() {
         <>
             <ProjectsHeader />
             <Cards />
+            <Footer />
         </>
     );
 }
