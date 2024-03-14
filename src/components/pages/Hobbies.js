@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import '../../App.css';
 import HobbiesHeader from "../hobbies_stuff/HobbiesHeader";
 import HobbyItems from "../hobbies_stuff/HobbyItems";
-import Footer from "../background_stuff/miscellaneous/Footer";
+import Footer from "../miscellaneous/Footer";
 
 export default function Hobbies() {
     useEffect(() => {

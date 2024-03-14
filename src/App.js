@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/background_stuff/miscellaneous/Navbar';
+import Navbar from './components/miscellaneous/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Hobbies from './components/pages/Hobbies';

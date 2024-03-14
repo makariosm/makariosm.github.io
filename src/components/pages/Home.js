@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import '../../App.css';
 import HeroSection from '../home_stuff/HeroSection';
-import Footer from '../background_stuff/miscellaneous/Footer';
+import Footer from '../miscellaneous/Footer';
 import AboutMe from '../home_stuff/AboutMe';
 
 function Home() {
