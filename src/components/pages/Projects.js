@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import '../../App.css';
 import Cards from "../projects_stuff/ProjectCards";
 import ProjectsHeader from "../projects_stuff/ProjectsHeader";
-import Footer from "../Footer";
+import Footer from "../background_stuff/miscellaneous/Footer";
 
 export default function Projects() {
     useEffect(() => {

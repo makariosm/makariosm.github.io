@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import '../../App.css';
 import BackgroundHeader from "../background_stuff/BackgroundHeader";
 import BackgroundContent from "../background_stuff/BackgroundContent";
-import Footer from "../Footer";
+import Footer from "../background_stuff/miscellaneous/Footer";
 
 export default function Background() {
     useEffect(() => {
