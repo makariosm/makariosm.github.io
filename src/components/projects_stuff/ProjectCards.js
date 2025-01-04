@@ -14,7 +14,7 @@ function Cards() {
                 more discs than your opponent. There are options for grid types as
                 well as single-player and two-player modes. Click for the source code."
                     label="Reversi"
-                    path="/"
+                    path="https://github.com/makariosm/Reversi"
                 />
               <CardItem 
                 src="images/img-9.jpg"
@@ -22,7 +22,7 @@ function Cards() {
                 same rules apply as for normal Solitaire. However, there are other versions of the
                 game available with different sets of rules. Click for the source code."
                     label="Klondike"
-                    path="/"
+                    path="https://github.com/makariosm/Klondike"
                 />
               <CardItem 
                 src="images/img-9.jpg"
