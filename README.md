@@ -3,19 +3,16 @@
 Welcome to my personal website! This space is where I share my journey, experiences, and projects. Whether you’re here to learn more about my work, my hobbies, or just to say hello, I’m glad you stopped by.
 
 ## About Me
-I’m [Your Name], a [your profession/field, e.g., software engineer, robotics enthusiast, etc.] with a passion for [highlight your main interest or expertise, e.g., problem-solving, technology, soccer, etc.]. I’m currently working on [briefly describe your current projects or endeavors].  
+I’m Makarios Mansour, an aspiring software engineer and robotics enthusiast. I’m currently working on a hazzat generator for different coptic hymns.  
 
-In my spare time, you can find me [mention some hobbies, like skiing, soccer, robotics, etc.].
+In my spare time, you can find me skiing, playing soccer, or doing robotics competitions.
 
 ## Projects
 Here, I’ll showcase some of the projects I’m currently working on or have worked on in the past. Feel free to check them out:
 
-- **[Project Name]**: [Short description of the project and its purpose]
-- **[Project Name]**: [Short description of the project and its purpose]
-- **[Project Name]**: [Short description of the project and its purpose]
-
-## Hobbies & Interests
-When I’m not coding or working on projects, I enjoy [briefly mention some hobbies, like playing soccer, skiing, or robotics]. These activities keep me balanced and fuel my creativity.
+- **Reversi**: A fun, interactive game! The aim of the game is to capture more discs than your opponent. There are options for grid types as well as single-player and two-player modes.
+- **Klondike**: A spin-off of the classic Solitaire game! For the default game-mode the same rules apply as for normal Solitaire. However, there are other versions of the game available with different sets of rules.
+- **This Personal Website**: This is the source code for my personal website
 
 ## Get in Touch
-Feel free to reach out to me via [email, LinkedIn, etc.]. I’m always open to new opportunities, collaborations, or just a friendly chat!
+Feel free to reach out to me. I’m always open to new opportunities, collaborations, or just a friendly chat!
