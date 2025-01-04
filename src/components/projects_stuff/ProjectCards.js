@@ -9,7 +9,7 @@ function Cards() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem 
-                src="images/img-9.jpg"
+                src="images/reversi.png"
                 text="A fun, interactive game! The aim of the game is to capture
                 more discs than your opponent. There are options for grid types as
                 well as single-player and two-player modes. Click for the source code."
@@ -17,7 +17,7 @@ function Cards() {
                     path="https://github.com/makariosm/Reversi"
                 />
               <CardItem 
-                src="images/img-9.jpg"
+                src="images/klondike.png"
                 text="A spin-off of the classic Solitaire game! For the default game-mode the
                 same rules apply as for normal Solitaire. However, there are other versions of the
                 game available with different sets of rules. Click for the source code."
@@ -25,11 +25,18 @@ function Cards() {
                     path="https://github.com/makariosm/Klondike"
                 />
               <CardItem 
-                src="images/img-9.jpg"
+                src="images/logo.png"
                 text="Click to find the source code for the website
                 you're currently viewing!"
                     label="Personal Website"
-                    path="/"
+                    path="https://github.com/makariosm/Personal-Website"
+                />
+                <CardItem 
+                src="images/logo.png"
+                text="Click to find the source code for the website
+                you're currently viewing!"
+                    label="Personal Website"
+                    path="https://github.com/makariosm/Personal-Website"
                 />
             </ul>
         </div>
