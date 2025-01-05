@@ -1,3 +1,11 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 .hero-container {
     height: 100vh;
     width: 100%;
@@ -7,16 +15,6 @@
     align-items: center;
     margin-top: -50px;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-  }
-  
-  .hero-container > video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
   }
   
   .hero-container > .welcome__image {

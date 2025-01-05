@@ -9,13 +9,13 @@ import Background from './components/pages/Background';
 
 function App() {
   return (
-    <Router> 
+    <Router basename='/Personal-Website'> 
       <Navbar />
       <Routes>
-        <Route path='/' exact element={<Home />} />
-        <Route path='/hobbies' exact element={<Hobbies />} />
-        <Route path='/projects' exact element={<Projects />} />
-        <Route path='/background' exact element={<Background />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/hobbies' element={<Hobbies />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/background' element={<Background />} />
       </Routes>
     </Router>
   );
