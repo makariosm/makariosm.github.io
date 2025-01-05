@@ -41,7 +41,7 @@ function BackgroundContent() {
   const data = [
     {
       name: `Place of Birth`,
-      img: `/images/Flag_of_Egypt.jpg`,
+      img: `images/Flag_of_Egypt.jpg`,
       review: `I was born in Alexandria, Egypt, a city with a rich history and cultural heritage. As one of the most iconic cities in the Mediterranean, Alexandria has a unique blend of ancient history and modern life. Growing up here, I was immersed in the local Egyptian culture, which has had a profound influence on shaping who I am today.
               Being an immigrant, I've always found myself navigating the delicate balance between my Egyptian roots and the new environments I encountered as I moved. This cultural duality has taught me how to appreciate the nuances of both worlds, while staying grounded in my heritage.
               The sense of family and community that is deeply ingrained in Egyptian culture is something I carry with me to this day. In Alexandria, family is everything, and this value was instilled in me from a young age. Whether it's gathering for meals, celebrations, or simply sharing time together, this bond remains central to my identity.
@@ -51,7 +51,7 @@ function BackgroundContent() {
     },
     {
       name: `Where I Grew Up`,
-      img: `/images/Uxbridge-Town-Hall-Sign.jpg`,
+      img: `images/Uxbridge-Town-Hall-Sign.jpg`,
       review: `I grew up in Uxbridge, MA, a small suburban town where everyone knew everyone, and word traveled fast. The town itself was quiet and typical of suburban life, with a tight-knit community and a school system where I felt the eyes of the town on me at every turn. As an Egyptian immigrant, it was often a challenge to balance my cultural heritage with the desire to fit in with my peers. Over time, I learned to embrace both my Egyptian roots and my American side, using my immigrant experience as an advantage.
               This allowed me to pick and choose the aspects of each culture that would help shape me into the person I wanted to become. One of the things that stands out most about growing up in Uxbridge is the sense of tradition. Every December, the town would come together to celebrate the winter season with a parade, which I always looked forward to. During middle school, I had the privilege of playing saxophone in my school band during the Veteran's Day parade, an experience that gave me a sense of pride in my community.
               My high school soccer field was one of the places I spent a lot of time, practicing the sport I loved while sorting through my thoughts. It was my way of escaping and finding clarity. Alongside soccer, church played a significant role in my life. Though my church and friends were far away from where I lived, the long car rides to and from church became moments of reflection, either with family or on my own. These drives taught me to appreciate quiet moments and gave me space to think about the person I was becoming.
@@ -59,7 +59,7 @@ function BackgroundContent() {
     },
     {
       name: `Religion`,
-      img: `/images/img-coptic-cross.jpg`,
+      img: `images/img-coptic-cross.jpg`,
       review: `Religion has always been a cornerstone of my life, particularly my Christian faith in the Coptic Orthodox Church. Growing up, my days were often filled with church activities, whether it was attending traditional services like Mass or engaging in developmental services like hymns class. I spent a lot of time at church, usually multiple days a week, where I found a deep sense of community and connection.
               The way I experienced my faith was also shaped by the significance of certain religious holidays and events. For example, Christmas in the Coptic tradition is celebrated on January 7th, and the week leading up to Easter, known as Pascha Week, holds immense spiritual importance. These holidays were so central to my life that I would always take those days off school to fully participate in the services and traditions.
               While my town of Uxbridge wasn't home to many people who shared my faith, I was fortunate to have friends who were incredibly supportive and respectful of my religious practices. They never pressured me to compromise on my beliefs, and their understanding made it easier to navigate growing up in a different cultural environment.
