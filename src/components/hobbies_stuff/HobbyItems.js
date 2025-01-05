@@ -15,7 +15,7 @@ function HobbyItems() {
         <Row className="flex-row">
           <Col md="6">
             <div className="item">
-              <img src="/images/soccer.JPG" width="310" height="308" alt="Your caption" className="image" />
+              <img src="/images/soccer.jpg" width="310" height="308" alt="Your caption" className="image" />
               <div className="text-wrap">
                 <p className="about-text">I've been passionate about soccer since I first started playing at the age of 5. These days, I keep the game alive by playing recreationally, whether it's intramurals at school or competing in church tournaments across the country. My position of choice is center back, where I enjoy reading the game and anchoring the defense.
                                           Off the field, I'm an avid supporter of Liverpool FC—You'll Never Walk Alone! One of my proudest soccer moments came during my senior year of high school when I captained our team to its first league title in five years.
@@ -32,7 +32,7 @@ function HobbyItems() {
         <Row className="flex-row">
           <Col md="6">
             <div className="item">
-              <img src="/images/skiing.JPG" width="286" height="382" alt="Your caption" className="image" />
+              <img src="/images/skiing.jpg" width="286" height="382" alt="Your caption" className="image" />
               <div className="text-wrap">
                 <p className="about-text">I first discovered my love for skiing in 6th grade when I joined my middle school ski club. Those winters spent gliding down the slopes sparked a passion that stayed with me, even during the years I wasn't able to ski much in high school or during the pandemic.
                                           What I love most about skiing is the perfect balance between the adrenaline of racing downhill and the breathtaking scenery around me. It's a humbling reminder of the beauty of God's creation.
