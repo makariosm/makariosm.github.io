@@ -32,11 +32,12 @@ function Cards() {
                     path="https://github.com/makariosm/Personal-Website"
                 />
                 <CardItem 
-                src="images/logo.png"
-                text="Click to find the source code for the website
-                you're currently viewing!"
-                    label="Personal Website"
-                    path="https://github.com/makariosm/Personal-Website"
+                src="images/password.png"
+                text="A side project to help me practice concepts from my operating systems class: A multi-threaded key-value
+                store with a simple frontend to display the key value pairs. 
+                Future work: adding a database to properly store the pairs. Click for the source code."
+                    label="Password Manager"
+                    path="https://github.com/makariosm/Password-Manager"
                 />
             </ul>
         </div>
