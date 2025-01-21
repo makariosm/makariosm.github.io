@@ -9,7 +9,7 @@ import Background from './components/pages/Background';
 
 function App() {
   return (
-    <Router basename='/Personal-Website'> 
+    <Router> 
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
