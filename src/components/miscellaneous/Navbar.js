@@ -30,15 +30,17 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li>
-              <Link
-                to="https://northeastern-my.sharepoint.com/:w:/g/personal/mansour_ma_northeastern_edu/EarfBySKm4NKp4ToP4-T3nsBpiGA9aQnqIy8mdt6QXPe2g"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Résumé
-              </Link>
-            </li>
+          <li>
+            <a
+              href="/Resume.pdf"
+              className="nav-links"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMobileMenu}
+            >
+              Résumé
+            </a>
+          </li>
             <li className="nav-item">
               <Link
                 to="/background"
